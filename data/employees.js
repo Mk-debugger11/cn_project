@@ -1,0 +1,222 @@
+export const employees = [
+  {
+    id: 1,
+    name: 'Alice Johnson',
+    email: 'alice.johnson@example.com',
+    department: 'Engineering',
+    role: 'Senior Software Engineer',
+    salary: 125000,
+    status: 'Active',
+    location: 'New York, USA',
+    joinDate: '2021-03-15'
+  },
+  {
+    id: 2,
+    name: 'Bob Smith',
+    email: 'bob.smith@example.com',
+    department: 'Engineering',
+    role: 'Backend Developer',
+    salary: 98000,
+    status: 'Active',
+    location: 'Austin, USA',
+    joinDate: '2022-06-01'
+  },
+  {
+    id: 3,
+    name: 'Charlie Brown',
+    email: 'charlie.brown@example.com',
+    department: 'Product',
+    role: 'Product Manager',
+    salary: 115000,
+    status: 'Active',
+    location: 'San Francisco, USA',
+    joinDate: '2020-11-10'
+  },
+  {
+    id: 4,
+    name: 'Diana Prince',
+    email: 'diana.prince@example.com',
+    department: 'Design',
+    role: 'Lead UI/UX Designer',
+    salary: 110000,
+    status: 'Active',
+    location: 'Remote',
+    joinDate: '2021-08-20'
+  },
+  {
+    id: 5,
+    name: 'Ethan Hunt',
+    email: 'ethan.hunt@example.com',
+    department: 'Security',
+    role: 'DevSecOps Engineer',
+    salary: 130000,
+    status: 'Active',
+    location: 'Washington, USA',
+    joinDate: '2019-05-12'
+  },
+  {
+    id: 6,
+    name: 'Fiona Gallagher',
+    email: 'fiona.gallagher@example.com',
+    department: 'Human Resources',
+    role: 'HR Business Partner',
+    salary: 85000,
+    status: 'Active',
+    location: 'Chicago, USA',
+    joinDate: '2023-01-09'
+  },
+  {
+    id: 7,
+    name: 'George Clark',
+    email: 'george.clark@example.com',
+    department: 'Finance',
+    role: 'Financial Analyst',
+    salary: 92000,
+    status: 'Active',
+    location: 'Boston, USA',
+    joinDate: '2022-04-18'
+  },
+  {
+    id: 8,
+    name: 'Hannah Abbott',
+    email: 'hannah.abbott@example.com',
+    department: 'Marketing',
+    role: 'Content Strategist',
+    salary: 80000,
+    status: 'Active',
+    location: 'London, UK',
+    joinDate: '2023-03-01'
+  },
+  {
+    id: 9,
+    name: 'Ian Malcolm',
+    email: 'ian.malcolm@example.com',
+    department: 'Data & Analytics',
+    role: 'Lead Data Scientist',
+    salary: 140000,
+    status: 'Active',
+    location: 'Remote',
+    joinDate: '2020-02-14'
+  },
+  {
+    id: 10,
+    name: 'Julia Roberts',
+    email: 'julia.roberts@example.com',
+    department: 'Engineering',
+    role: 'QA Automation Engineer',
+    salary: 90000,
+    status: 'Active',
+    location: 'Los Angeles, USA',
+    joinDate: '2022-09-05'
+  },
+  {
+    id: 11,
+    name: 'Kevin Bacon',
+    email: 'kevin.bacon@example.com',
+    department: 'Sales',
+    role: 'Senior Account Executive',
+    salary: 105000,
+    status: 'Active',
+    location: 'Philadelphia, USA',
+    joinDate: '2021-07-22'
+  },
+  {
+    id: 12,
+    name: 'Laura Croft',
+    email: 'laura.croft@example.com',
+    department: 'Operations',
+    role: 'Operations Director',
+    salary: 135000,
+    status: 'Active',
+    location: 'Seattle, USA',
+    joinDate: '2019-10-01'
+  },
+  {
+    id: 13,
+    name: 'Michael Scott',
+    email: 'michael.scott@example.com',
+    department: 'Sales',
+    role: 'Regional Sales Manager',
+    salary: 95000,
+    status: 'Active',
+    location: 'Scranton, USA',
+    joinDate: '2018-04-01'
+  },
+  {
+    id: 14,
+    name: 'Nina Simone',
+    email: 'nina.simone@example.com',
+    department: 'Marketing',
+    role: 'Growth Marketing Manager',
+    salary: 102000,
+    status: 'Active',
+    location: 'Remote',
+    joinDate: '2021-12-15'
+  },
+  {
+    id: 15,
+    name: 'Oscar Martinez',
+    email: 'oscar.martinez@example.com',
+    department: 'Finance',
+    role: 'Senior Accountant',
+    salary: 89000,
+    status: 'Active',
+    location: 'Scranton, USA',
+    joinDate: '2019-08-11'
+  },
+  {
+    id: 16,
+    name: 'Peter Parker',
+    email: 'peter.parker@example.com',
+    department: 'Engineering',
+    role: 'Frontend Developer',
+    salary: 93000,
+    status: 'Active',
+    location: 'New York, USA',
+    joinDate: '2023-05-20'
+  },
+  {
+    id: 17,
+    name: 'Quinn Fabray',
+    email: 'quinn.fabray@example.com',
+    department: 'Customer Support',
+    role: 'Customer Success Lead',
+    salary: 78000,
+    status: 'Active',
+    location: 'Denver, USA',
+    joinDate: '2022-10-10'
+  },
+  {
+    id: 18,
+    name: 'Rachel Green',
+    email: 'rachel.green@example.com',
+    department: 'Design',
+    role: 'Visual Designer',
+    salary: 84000,
+    status: 'Active',
+    location: 'New York, USA',
+    joinDate: '2023-02-17'
+  },
+  {
+    id: 19,
+    name: 'Steve Rogers',
+    email: 'steve.rogers@example.com',
+    department: 'Management',
+    role: 'Program Manager',
+    salary: 120000,
+    status: 'Active',
+    location: 'Brooklyn, USA',
+    joinDate: '2020-06-30'
+  },
+  {
+    id: 20,
+    name: 'Tony Stark',
+    email: 'tony.stark@example.com',
+    department: 'Engineering',
+    role: 'Chief Technology Architect',
+    salary: 180000,
+    status: 'Active',
+    location: 'Malibu, USA',
+    joinDate: '2017-01-01'
+  }
+];
